@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f6fa;
+    padding: 20px;
+}
+
+.container {
+    width: 360px;
+    background: #f5f6fa;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 125px;
+    height: auto;
+}
+
+.header .icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 18px 30px 18px 30px;
+    margin: 0px 15px 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.balance-section {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 18px 30px 18px 30px;
+    margin: 0px 15px 0px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    gap: 8px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.send1 {
+    margin-left: 80px;
+    padding: 5px 10px 5px 10px;
+}
+
+.send2 {
+    margin-left: 67px;
+    padding: 5px 10px 5px 10px;
+}
+
+.account .icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.account div {
+    display: flex;
+    flex-direction: column;
+}
+.highlight {
+    font-weight: bold;
+    font-size: 18px;
+}
+.positive {
+    color: red;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.account-watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.spending-section {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 18px 30px 18px 30px;
+    margin: 0px 15px 0px 15px;
+    border-radius: 10px;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.history {
+    margin-left: 55px;
+    padding: 5px;
+    background: lightblue;
+    border-radius: 3px;
+}
+
+.spending {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.spending .icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    padding: 18px 30px 18px 30px;
+    margin: 0px 15px 0px 15px;
+    gap: 10px;
+}
+
+.credit-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.credit-flex p {
+    margin-left: 10px;
+}
+
+.menu-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.menu img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-account,
+.menu-card {
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+.menu .arrow {
+    margin-left: 133px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: white;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
